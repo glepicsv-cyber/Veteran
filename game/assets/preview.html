@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Xem trước asset</title>
+<style>
+  body { margin: 0; padding: 16px; font-family: system-ui, sans-serif; background: #1d2a36; color: #eee; }
+  h2 { margin: 24px 0 8px; font-size: 16px; }
+  .g { display: flex; flex-wrap: wrap; gap: 8px; }
+  .c { background: #6a8a5a; border-radius: 8px; padding: 6px; text-align: center; font-size: 10px; width: 110px; }
+  .c img { max-width: 96px; max-height: 96px; image-rendering: auto; display: block; margin: 0 auto 4px; }
+  .ic { background: #2c3e50; width: 76px; }
+</style>
+</head>
+<body>
+<h1>Asset — Người Đi Trước</h1>
+<p>Thay ảnh: giữ nguyên tên tệp (SVG hoặc đổi đường dẫn sang PNG trong <code>sprites.json</code>). Kích thước hiển thị và điểm neo khai báo trong <code>sprites.json</code>.</p>
+<div id="out"></div>
+<script>
+(async () => {
+  const man = await (await fetch('sprites.json')).json();
+  const items = await (await fetch('../data/items.json')).json();
+  const groups = {};
+  for (const [k, v] of Object.entries(man)) {
+    if (!v.src) continue;
+    const g = v.src.split('/')[1];
+    (groups[g] = groups[g] || []).push([k, v]);
+  }
+  const out = document.getElementById('out');
+  for (const [g, list] of Object.entries(groups)) {
+    out.insertAdjacentHTML('beforeend', `<h2>${g} (${list.length})</h2><div class="g">` + list.map(([k, v]) => `<div class="c"><img src="${v.src}"><b>${k}</b><br>${v.w}×${v.h}</div>`).join('') + '</div>');
+  }
+  const icons = Object.keys(items);
+  out.insertAdjacentHTML('beforeend', `<h2>icons — vật phẩm (${icons.length})</h2><div class="g">` + icons.map(k => `<div class="c ic"><img src="img/icons/${k}.svg" width="48"><b>${items[k].n}</b><br>${k}</div>`).join('') + '</div>');
+})();
+</script>
+</body>
+</html>

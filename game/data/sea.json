@@ -1,0 +1,22 @@
+{
+ "baseDuration": 100,
+ "scrollSpeed": 0.28,
+ "raftY": 0.8,
+ "legs": {
+  "1": {"name": "Đảo Dừa → Đảo Thủy Triều", "tip": "Né đá và gỗ trôi. Giữ nút Móc để vớt hòm trôi. Cá chuồn có thể nhảy lên bè!", "events": ["rock", "log", "crate", "fish"]},
+  "2": {"name": "Đảo Thủy Triều → Đảo Núi Lửa", "tip": "Coi chừng cá mập húc bè!", "events": ["rock", "log", "crate", "fish", "shark"]},
+  "3": {"name": "Đảo Núi Lửa → Đảo Sương Mù", "tip": "Đá ngầm chỉ hiện khi tới gần. La bàn giúp thấy trước.", "events": ["rock", "log", "crate", "shark", "reef"]},
+  "4": {"name": "Đảo Sương Mù → Đảo Rùa", "tip": "Bão! Sóng lớn liên tục.", "events": ["rock", "crate", "shark", "reef", "reef"], "storm": true}
+ },
+ "objects": {
+  "rock": {"sprite": "sea_rock", "hit": 0.12, "dmg": 10, "msg": "Va đá"},
+  "log": {"sprite": "sea_log", "hit": 0.18, "dmg": 8, "msg": "Va gỗ trôi"},
+  "reef": {"sprite": "sea_reef", "hit": 0.15, "dmg": 25, "msg": "Đâm đá ngầm"},
+  "shark": {"sprite": "sea_shark", "hit": 0.12, "dmg": 15, "msg": "Cá mập húc"},
+  "crate": {"sprite": "sea_crate", "hit": 0.1},
+  "fish": {"sprite": "sea_fish", "hit": 0}
+ },
+ "storm": {"dmgBelowLevel3": 40, "waveMin": 4, "waveMax": 7, "waveForce": 1.6},
+ "loot": [["coconut", 2], ["water", 2], ["coir_rope", 2], ["plank", 2], ["firewood", 3], ["fish", 2], ["seashell", 2], ["branch", 3]],
+ "rareFlagChance": 0.12
+}

@@ -1,0 +1,10 @@
+# Cấu hình cục bộ của Claude Code / máy
+.claude/
+.vercel/
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
+
+# Tài liệu thiết kế giữ ở máy
+*.docx

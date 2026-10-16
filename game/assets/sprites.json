@@ -1,0 +1,1360 @@
+{
+ "tile_deep": {
+  "src": "img/tiles/tile_deep.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_shallow": {
+  "src": "img/tiles/tile_shallow.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_tidepool": {
+  "src": "img/tiles/tile_tidepool.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_mud": {
+  "src": "img/tiles/tile_mud.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_sand": {
+  "src": "img/tiles/tile_sand.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_rim": {
+  "src": "img/tiles/tile_rim.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_dune": {
+  "src": "img/tiles/tile_dune.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_ash": {
+  "src": "img/tiles/tile_ash.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_grass": {
+  "src": "img/tiles/tile_grass.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_shell": {
+  "src": "img/tiles/tile_shell.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_clay": {
+  "src": "img/tiles/tile_clay.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_stone": {
+  "src": "img/tiles/tile_stone.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_swamp": {
+  "src": "img/tiles/tile_swamp.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_forest": {
+  "src": "img/tiles/tile_forest.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_mangrove": {
+  "src": "img/tiles/tile_mangrove.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_pine": {
+  "src": "img/tiles/tile_pine.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_burnt": {
+  "src": "img/tiles/tile_burnt.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_garden": {
+  "src": "img/tiles/tile_garden.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_hot": {
+  "src": "img/tiles/tile_hot.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_basalt": {
+  "src": "img/tiles/tile_basalt.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_spring": {
+  "src": "img/tiles/tile_spring.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_cave": {
+  "src": "img/tiles/tile_cave.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_floor": {
+  "src": "img/tiles/tile_floor.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_rock": {
+  "src": "img/tiles/tile_rock.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_lava_0": {
+  "src": "img/tiles/tile_lava_0.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_lava_1": {
+  "src": "img/tiles/tile_lava_1.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_lava_2": {
+  "src": "img/tiles/tile_lava_2.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "tile_lava": {
+  "frames": [
+   "tile_lava_0",
+   "tile_lava_1",
+   "tile_lava_2"
+  ],
+  "fps": 4
+ },
+ "tile_flood": {
+  "src": "img/tiles/tile_flood.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0,
+  "ay": 0
+ },
+ "player_m_down_0": {
+  "src": "img/sprites/player_m_down_0.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_m_down_1": {
+  "src": "img/sprites/player_m_down_1.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_m_down_2": {
+  "src": "img/sprites/player_m_down_2.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_m_down": {
+  "frames": [
+   "player_m_down_1",
+   "player_m_down_2"
+  ],
+  "fps": 8
+ },
+ "player_m_up_0": {
+  "src": "img/sprites/player_m_up_0.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_m_up_1": {
+  "src": "img/sprites/player_m_up_1.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_m_up_2": {
+  "src": "img/sprites/player_m_up_2.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_m_up": {
+  "frames": [
+   "player_m_up_1",
+   "player_m_up_2"
+  ],
+  "fps": 8
+ },
+ "player_m_side_0": {
+  "src": "img/sprites/player_m_side_0.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_m_side_1": {
+  "src": "img/sprites/player_m_side_1.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_m_side_2": {
+  "src": "img/sprites/player_m_side_2.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_m_side": {
+  "frames": [
+   "player_m_side_1",
+   "player_m_side_2"
+  ],
+  "fps": 8
+ },
+ "player_f_down_0": {
+  "src": "img/sprites/player_f_down_0.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_f_down_1": {
+  "src": "img/sprites/player_f_down_1.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_f_down_2": {
+  "src": "img/sprites/player_f_down_2.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_f_down": {
+  "frames": [
+   "player_f_down_1",
+   "player_f_down_2"
+  ],
+  "fps": 8
+ },
+ "player_f_up_0": {
+  "src": "img/sprites/player_f_up_0.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_f_up_1": {
+  "src": "img/sprites/player_f_up_1.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_f_up_2": {
+  "src": "img/sprites/player_f_up_2.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_f_up": {
+  "frames": [
+   "player_f_up_1",
+   "player_f_up_2"
+  ],
+  "fps": 8
+ },
+ "player_f_side_0": {
+  "src": "img/sprites/player_f_side_0.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_f_side_1": {
+  "src": "img/sprites/player_f_side_1.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_f_side_2": {
+  "src": "img/sprites/player_f_side_2.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "player_f_side": {
+  "frames": [
+   "player_f_side_1",
+   "player_f_side_2"
+  ],
+  "fps": 8
+ },
+ "lam": {
+  "src": "img/sprites/lam.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "parrot_0": {
+  "src": "img/sprites/parrot_0.svg",
+  "w": 28,
+  "h": 24,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "parrot_1": {
+  "src": "img/sprites/parrot_1.svg",
+  "w": 28,
+  "h": 24,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "parrot_fly": {
+  "frames": [
+   "parrot_0",
+   "parrot_1"
+  ],
+  "fps": 9
+ },
+ "parrot_perch": {
+  "src": "img/sprites/parrot_perch.svg",
+  "w": 40,
+  "h": 56,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "palm_fruit_0": {
+  "src": "img/sprites/palm_fruit_0.svg",
+  "w": 64,
+  "h": 80,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "palm_bare_0": {
+  "src": "img/sprites/palm_bare_0.svg",
+  "w": 64,
+  "h": 80,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "palm_fruit_1": {
+  "src": "img/sprites/palm_fruit_1.svg",
+  "w": 64,
+  "h": 80,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "palm_bare_1": {
+  "src": "img/sprites/palm_bare_1.svg",
+  "w": 64,
+  "h": 80,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "palm_fruit": {
+  "frames": [
+   "palm_fruit_0",
+   "palm_fruit_1"
+  ],
+  "fps": 0.8
+ },
+ "palm_bare": {
+  "frames": [
+   "palm_bare_0",
+   "palm_bare_1"
+  ],
+  "fps": 0.8
+ },
+ "stump": {
+  "src": "img/sprites/stump.svg",
+  "w": 28,
+  "h": 18,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "tree_big": {
+  "src": "img/sprites/tree_big.svg",
+  "w": 64,
+  "h": 72,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "tree_bark": {
+  "src": "img/sprites/tree_bark.svg",
+  "w": 48,
+  "h": 56,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "pine": {
+  "src": "img/sprites/pine.svg",
+  "w": 48,
+  "h": 60,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "pine_resin": {
+  "src": "img/sprites/pine_resin.svg",
+  "w": 48,
+  "h": 60,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "burnt": {
+  "src": "img/sprites/burnt.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "burnt_resin": {
+  "src": "img/sprites/burnt_resin.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_stone": {
+  "src": "img/sprites/res_stone.svg",
+  "w": 24,
+  "h": 20,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_flat": {
+  "src": "img/sprites/res_flat.svg",
+  "w": 24,
+  "h": 16,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_stick": {
+  "src": "img/sprites/res_stick.svg",
+  "w": 28,
+  "h": 16,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_drift": {
+  "src": "img/sprites/res_drift.svg",
+  "w": 36,
+  "h": 16,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_bush": {
+  "src": "img/sprites/res_bush.svg",
+  "w": 28,
+  "h": 24,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_shell": {
+  "src": "img/sprites/res_shell.svg",
+  "w": 20,
+  "h": 16,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_shellfish": {
+  "src": "img/sprites/res_shellfish.svg",
+  "w": 22,
+  "h": 16,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_seaweed": {
+  "src": "img/sprites/res_seaweed.svg",
+  "w": 24,
+  "h": 20,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_fish_0": {
+  "src": "img/sprites/res_fish_0.svg",
+  "w": 24,
+  "h": 16,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_fish_1": {
+  "src": "img/sprites/res_fish_1.svg",
+  "w": 24,
+  "h": 16,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_fish": {
+  "frames": [
+   "res_fish_0",
+   "res_fish_1"
+  ],
+  "fps": 4
+ },
+ "res_bamboo": {
+  "src": "img/sprites/res_bamboo.svg",
+  "w": 32,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_mangrove": {
+  "src": "img/sprites/res_mangrove.svg",
+  "w": 40,
+  "h": 44,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_sisal": {
+  "src": "img/sprites/res_sisal.svg",
+  "w": 28,
+  "h": 24,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_clay": {
+  "src": "img/sprites/res_clay.svg",
+  "w": 28,
+  "h": 18,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_ore": {
+  "src": "img/sprites/res_ore.svg",
+  "w": 28,
+  "h": 24,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_sulfur": {
+  "src": "img/sprites/res_sulfur.svg",
+  "w": 24,
+  "h": 20,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_gem_red": {
+  "src": "img/sprites/res_gem_red.svg",
+  "w": 20,
+  "h": 20,
+  "ax": 0.5,
+  "ay": 0.8
+ },
+ "res_gem_yellow": {
+  "src": "img/sprites/res_gem_yellow.svg",
+  "w": 20,
+  "h": 20,
+  "ax": 0.5,
+  "ay": 0.8
+ },
+ "res_gem_green": {
+  "src": "img/sprites/res_gem_green.svg",
+  "w": 20,
+  "h": 20,
+  "ax": 0.5,
+  "ay": 0.8
+ },
+ "res_gem_blue": {
+  "src": "img/sprites/res_gem_blue.svg",
+  "w": 20,
+  "h": 20,
+  "ax": 0.5,
+  "ay": 0.8
+ },
+ "res_gem_purple": {
+  "src": "img/sprites/res_gem_purple.svg",
+  "w": 20,
+  "h": 20,
+  "ax": 0.5,
+  "ay": 0.8
+ },
+ "res_firefly_0": {
+  "src": "img/sprites/res_firefly_0.svg",
+  "w": 24,
+  "h": 24,
+  "ax": 0.5,
+  "ay": 1.4
+ },
+ "res_firefly_1": {
+  "src": "img/sprites/res_firefly_1.svg",
+  "w": 24,
+  "h": 24,
+  "ax": 0.5,
+  "ay": 1.4
+ },
+ "res_firefly": {
+  "frames": [
+   "res_firefly_0",
+   "res_firefly_1"
+  ],
+  "fps": 3
+ },
+ "res_jute": {
+  "src": "img/sprites/res_jute.svg",
+  "w": 24,
+  "h": 32,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_glass": {
+  "src": "img/sprites/res_glass.svg",
+  "w": 16,
+  "h": 16,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_jar": {
+  "src": "img/sprites/res_jar.svg",
+  "w": 20,
+  "h": 24,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_lode": {
+  "src": "img/sprites/res_lode.svg",
+  "w": 26,
+  "h": 22,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_seagrass": {
+  "src": "img/sprites/res_seagrass.svg",
+  "w": 24,
+  "h": 22,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "res_potato": {
+  "src": "img/sprites/res_potato.svg",
+  "w": 28,
+  "h": 22,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "crab_0": {
+  "src": "img/sprites/crab_0.svg",
+  "w": 24,
+  "h": 18,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "crab_1": {
+  "src": "img/sprites/crab_1.svg",
+  "w": 24,
+  "h": 18,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "crab": {
+  "frames": [
+   "crab_0",
+   "crab_1"
+  ],
+  "fps": 4
+ },
+ "page": {
+  "src": "img/sprites/page.svg",
+  "w": 28,
+  "h": 30,
+  "ax": 0.5,
+  "ay": 0.85
+ },
+ "debris_crate": {
+  "src": "img/sprites/debris_crate.svg",
+  "w": 28,
+  "h": 28,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "debris_bottle": {
+  "src": "img/sprites/debris_bottle.svg",
+  "w": 20,
+  "h": 28,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "footprints": {
+  "src": "img/sprites/footprints.svg",
+  "w": 20,
+  "h": 20,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "lam_camp": {
+  "src": "img/sprites/lam_camp.svg",
+  "w": 64,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "tent": {
+  "src": "img/sprites/tent.svg",
+  "w": 56,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "stilt_hut": {
+  "src": "img/sprites/stilt_hut.svg",
+  "w": 64,
+  "h": 68,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "campfire_0": {
+  "src": "img/sprites/campfire_0.svg",
+  "w": 40,
+  "h": 40,
+  "ax": 0.5,
+  "ay": 0.85
+ },
+ "campfire_1": {
+  "src": "img/sprites/campfire_1.svg",
+  "w": 40,
+  "h": 40,
+  "ax": 0.5,
+  "ay": 0.85
+ },
+ "campfire_2": {
+  "src": "img/sprites/campfire_2.svg",
+  "w": 40,
+  "h": 40,
+  "ax": 0.5,
+  "ay": 0.85
+ },
+ "campfire": {
+  "frames": [
+   "campfire_0",
+   "campfire_1",
+   "campfire_2"
+  ],
+  "fps": 8
+ },
+ "still": {
+  "src": "img/sprites/still.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "water_drop": {
+  "src": "img/sprites/water_drop.svg",
+  "w": 12,
+  "h": 14,
+  "ax": 0.5,
+  "ay": 1
+ },
+ "raft_1": {
+  "src": "img/sprites/raft_1.svg",
+  "w": 112,
+  "h": 112,
+  "ax": 0.5,
+  "ay": 0.57
+ },
+ "raft_2": {
+  "src": "img/sprites/raft_2.svg",
+  "w": 112,
+  "h": 112,
+  "ax": 0.5,
+  "ay": 0.57
+ },
+ "raft_3": {
+  "src": "img/sprites/raft_3.svg",
+  "w": 112,
+  "h": 112,
+  "ax": 0.5,
+  "ay": 0.57
+ },
+ "raft_4": {
+  "src": "img/sprites/raft_4.svg",
+  "w": 112,
+  "h": 112,
+  "ax": 0.5,
+  "ay": 0.57
+ },
+ "deco_shells": {
+  "src": "img/sprites/deco_shells.svg",
+  "w": 112,
+  "h": 112,
+  "ax": 0.5,
+  "ay": 0.57
+ },
+ "deco_stones": {
+  "src": "img/sprites/deco_stones.svg",
+  "w": 112,
+  "h": 112,
+  "ax": 0.5,
+  "ay": 0.57
+ },
+ "deco_flag": {
+  "src": "img/sprites/deco_flag.svg",
+  "w": 112,
+  "h": 112,
+  "ax": 0.5,
+  "ay": 0.57
+ },
+ "raftsite": {
+  "src": "img/sprites/raftsite.svg",
+  "w": 72,
+  "h": 64,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "broken": {
+  "src": "img/sprites/broken.svg",
+  "w": 48,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "peak_flag": {
+  "src": "img/sprites/peak_flag.svg",
+  "w": 24,
+  "h": 32,
+  "ax": 0.25,
+  "ay": 0.95
+ },
+ "tide_gauge": {
+  "src": "img/sprites/tide_gauge.svg",
+  "w": 28,
+  "h": 44,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "stakes": {
+  "src": "img/sprites/stakes.svg",
+  "w": 32,
+  "h": 28,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "fish_trap": {
+  "src": "img/sprites/fish_trap.svg",
+  "w": 40,
+  "h": 32,
+  "ax": 0.5,
+  "ay": 0.75
+ },
+ "wreck": {
+  "src": "img/sprites/wreck.svg",
+  "w": 128,
+  "h": 80,
+  "ax": 0.5,
+  "ay": 0.85
+ },
+ "cave_chest": {
+  "src": "img/sprites/cave_chest.svg",
+  "w": 32,
+  "h": 26,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "cave_chest_open": {
+  "src": "img/sprites/cave_chest_open.svg",
+  "w": 32,
+  "h": 26,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "crevice": {
+  "src": "img/sprites/crevice.svg",
+  "w": 52,
+  "h": 30,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "baby_turtle": {
+  "src": "img/sprites/baby_turtle.svg",
+  "w": 52,
+  "h": 30,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "spring_well": {
+  "src": "img/sprites/spring_well.svg",
+  "w": 48,
+  "h": 28,
+  "ax": 0.5,
+  "ay": 0.8
+ },
+ "kiln_0": {
+  "src": "img/sprites/kiln_0.svg",
+  "w": 36,
+  "h": 40,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "kiln_1": {
+  "src": "img/sprites/kiln_1.svg",
+  "w": 36,
+  "h": 40,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "kiln": {
+  "frames": [
+   "kiln_0",
+   "kiln_1"
+  ],
+  "fps": 3
+ },
+ "stove": {
+  "src": "img/sprites/stove.svg",
+  "w": 32,
+  "h": 26,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "buried_0": {
+  "src": "img/sprites/buried_0.svg",
+  "w": 52,
+  "h": 36,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "buried_1": {
+  "src": "img/sprites/buried_1.svg",
+  "w": 52,
+  "h": 36,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "buried_2": {
+  "src": "img/sprites/buried_2.svg",
+  "w": 52,
+  "h": 36,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "buried_3": {
+  "src": "img/sprites/buried_3.svg",
+  "w": 52,
+  "h": 36,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "chime_0": {
+  "src": "img/sprites/chime_0.svg",
+  "w": 28,
+  "h": 40,
+  "ax": 0.25,
+  "ay": 0.95
+ },
+ "chime_1": {
+  "src": "img/sprites/chime_1.svg",
+  "w": 28,
+  "h": 40,
+  "ax": 0.25,
+  "ay": 0.95
+ },
+ "chime": {
+  "frames": [
+   "chime_0",
+   "chime_1"
+  ],
+  "fps": 1.5
+ },
+ "lighthouse": {
+  "src": "img/sprites/lighthouse.svg",
+  "w": 56,
+  "h": 120,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "lighthouse_lit": {
+  "src": "img/sprites/lighthouse_lit.svg",
+  "w": 56,
+  "h": 120,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "door_blocked": {
+  "src": "img/sprites/door_blocked.svg",
+  "w": 32,
+  "h": 44,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "door_needle": {
+  "src": "img/sprites/door_needle.svg",
+  "w": 32,
+  "h": 44,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "door_open": {
+  "src": "img/sprites/door_open.svg",
+  "w": 32,
+  "h": 44,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "carving": {
+  "src": "img/sprites/carving.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "carving_seen": {
+  "src": "img/sprites/carving_seen.svg",
+  "w": 32,
+  "h": 32,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "loom": {
+  "src": "img/sprites/loom.svg",
+  "w": 32,
+  "h": 36,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "leg_full": {
+  "src": "img/sprites/leg_full.svg",
+  "w": 72,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.6
+ },
+ "leg_hooks": {
+  "src": "img/sprites/leg_hooks.svg",
+  "w": 72,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.6
+ },
+ "leg_free": {
+  "src": "img/sprites/leg_free.svg",
+  "w": 72,
+  "h": 48,
+  "ax": 0.5,
+  "ay": 0.6
+ },
+ "turtle_head_0": {
+  "src": "img/sprites/turtle_head_0.svg",
+  "w": 96,
+  "h": 64,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "turtle_head_1": {
+  "src": "img/sprites/turtle_head_1.svg",
+  "w": 96,
+  "h": 64,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "turtle_head": {
+  "frames": [
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_0",
+   "turtle_head_1"
+  ],
+  "fps": 3.5
+ },
+ "sign": {
+  "src": "img/sprites/sign.svg",
+  "w": 24,
+  "h": 28,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "ring": {
+  "src": "img/fx/ring.svg",
+  "w": 40,
+  "h": 18,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "warn": {
+  "src": "img/fx/warn.svg",
+  "w": 48,
+  "h": 24,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "falling_rock": {
+  "src": "img/fx/falling_rock.svg",
+  "w": 28,
+  "h": 28,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "rock_landed": {
+  "src": "img/fx/rock_landed.svg",
+  "w": 24,
+  "h": 20,
+  "ax": 0.5,
+  "ay": 0.95
+ },
+ "sparkle": {
+  "src": "img/fx/sparkle.svg",
+  "w": 12,
+  "h": 4,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "note": {
+  "src": "img/fx/note.svg",
+  "w": 18,
+  "h": 22,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "glow_warm": {
+  "src": "img/fx/glow_warm.svg",
+  "w": 64,
+  "h": 64,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "glow_green": {
+  "src": "img/fx/glow_green.svg",
+  "w": 64,
+  "h": 64,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "glow_fire": {
+  "src": "img/fx/glow_fire.svg",
+  "w": 64,
+  "h": 64,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "hook": {
+  "src": "img/fx/hook.svg",
+  "w": 16,
+  "h": 16,
+  "ax": 0.5,
+  "ay": 0
+ },
+ "rain": {
+  "src": "img/fx/rain.svg",
+  "w": 128,
+  "h": 128,
+  "ax": 0,
+  "ay": 0
+ },
+ "swim_ripple": {
+  "src": "img/fx/swim_ripple.svg",
+  "w": 36,
+  "h": 14,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "item_glow": {
+  "src": "img/fx/item_glow.svg",
+  "w": 40,
+  "h": 40,
+  "ax": 0.5,
+  "ay": 0.6
+ },
+ "sea_bg": {
+  "src": "img/sea/sea_bg.svg",
+  "w": 128,
+  "h": 128,
+  "ax": 0,
+  "ay": 0
+ },
+ "sea_bg_storm": {
+  "src": "img/sea/sea_bg_storm.svg",
+  "w": 128,
+  "h": 128,
+  "ax": 0,
+  "ay": 0
+ },
+ "sea_rock": {
+  "src": "img/sea/sea_rock.svg",
+  "w": 48,
+  "h": 40,
+  "ax": 0.5,
+  "ay": 0.6
+ },
+ "sea_log": {
+  "src": "img/sea/sea_log.svg",
+  "w": 64,
+  "h": 24,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "sea_crate": {
+  "src": "img/sea/sea_crate.svg",
+  "w": 36,
+  "h": 36,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "sea_fish": {
+  "src": "img/sea/sea_fish.svg",
+  "w": 56,
+  "h": 28,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "sea_shark": {
+  "src": "img/sea/sea_shark.svg",
+  "w": 44,
+  "h": 34,
+  "ax": 0.5,
+  "ay": 0.8
+ },
+ "sea_reef": {
+  "src": "img/sea/sea_reef.svg",
+  "w": 56,
+  "h": 28,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "sea_ripple": {
+  "src": "img/sea/sea_ripple.svg",
+  "w": 56,
+  "h": 20,
+  "ax": 0.5,
+  "ay": 0.5
+ },
+ "sea_wake": {
+  "src": "img/sea/sea_wake.svg",
+  "w": 64,
+  "h": 40,
+  "ax": 0.5,
+  "ay": 0
+ },
+ "bg_title": {
+  "src": "img/bg/bg_title.svg",
+  "w": 1600,
+  "h": 900,
+  "ax": 0,
+  "ay": 0
+ },
+ "bg_end": {
+  "src": "img/bg/bg_end.svg",
+  "w": 1600,
+  "h": 900,
+  "ax": 0,
+  "ay": 0
+ },
+ "bg_share": {
+  "src": "img/bg/bg_share.svg",
+  "w": 1080,
+  "h": 608,
+  "ax": 0,
+  "ay": 0
+ },
+ "turtle_big": {
+  "src": "img/bg/turtle_big.svg",
+  "w": 300,
+  "h": 110,
+  "ax": 0.5,
+  "ay": 0.55
+ },
+ "turtle_small": {
+  "src": "img/bg/turtle_small.svg",
+  "w": 80,
+  "h": 32,
+  "ax": 0.5,
+  "ay": 0.6
+ }
+}

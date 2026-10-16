@@ -1,0 +1,252 @@
+{
+ "DEEP": {
+  "ch": "~",
+  "name": "Biển sâu",
+  "walk": false,
+  "shade": false,
+  "swim": false,
+  "layer": 0,
+  "img": "tile_deep",
+  "color": "#1d5f8c"
+ },
+ "SHALLOW": {
+  "ch": "-",
+  "name": "Nước nông",
+  "walk": true,
+  "shade": false,
+  "swim": true,
+  "layer": 1,
+  "img": "tile_shallow",
+  "color": "#3a9fc0"
+ },
+ "SAND": {
+  "ch": ".",
+  "name": "Bãi cát",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 3,
+  "img": "tile_sand",
+  "color": "#e6d197"
+ },
+ "GRASS": {
+  "ch": ",",
+  "name": "Đồng cỏ",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 5,
+  "img": "tile_grass",
+  "color": "#7db354"
+ },
+ "FOREST": {
+  "ch": "f",
+  "name": "Rừng",
+  "walk": true,
+  "shade": true,
+  "swim": false,
+  "layer": 6,
+  "img": "tile_forest",
+  "color": "#4e8a39"
+ },
+ "ROCK": {
+  "ch": "#",
+  "name": "Vách đá",
+  "walk": false,
+  "shade": false,
+  "swim": false,
+  "layer": 9,
+  "img": "tile_rock",
+  "color": "#6a6662"
+ },
+ "STONE": {
+  "ch": "s",
+  "name": "Nền đá",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 5,
+  "img": "tile_stone",
+  "color": "#a5a096"
+ },
+ "MUD": {
+  "ch": "m",
+  "name": "Bãi bùn",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 2,
+  "img": "tile_mud",
+  "color": "#8a7356"
+ },
+ "MANGROVE": {
+  "ch": "g",
+  "name": "Rừng đước",
+  "walk": true,
+  "shade": true,
+  "swim": false,
+  "layer": 6,
+  "img": "tile_mangrove",
+  "color": "#4b6a38"
+ },
+ "DUNE": {
+  "ch": "d",
+  "name": "Cồn cao",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 4,
+  "img": "tile_dune",
+  "color": "#cdb978"
+ },
+ "CAVE": {
+  "ch": "c",
+  "name": "Hang",
+  "walk": true,
+  "shade": true,
+  "swim": false,
+  "layer": 8,
+  "img": "tile_cave",
+  "color": "#3a3530"
+ },
+ "ASH": {
+  "ch": "a",
+  "name": "Đất tro",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 4,
+  "img": "tile_ash",
+  "color": "#5f5853"
+ },
+ "HOT": {
+  "ch": "h",
+  "name": "Đá nóng",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 7,
+  "img": "tile_hot",
+  "color": "#7d4636"
+ },
+ "LAVA": {
+  "ch": "L",
+  "name": "Dung nham",
+  "walk": false,
+  "shade": false,
+  "swim": false,
+  "layer": 8,
+  "img": "tile_lava",
+  "color": "#e8521c"
+ },
+ "BASALT": {
+  "ch": "b",
+  "name": "Đá nguội",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 7,
+  "img": "tile_basalt",
+  "color": "#34302f"
+ },
+ "SPRING": {
+  "ch": "w",
+  "name": "Suối nóng",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 7,
+  "img": "tile_spring",
+  "color": "#78cfc4"
+ },
+ "BURNT": {
+  "ch": "x",
+  "name": "Rừng cháy",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 6,
+  "img": "tile_burnt",
+  "color": "#4a3d33"
+ },
+ "SWAMP": {
+  "ch": "p",
+  "name": "Đầm lầy",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 5,
+  "img": "tile_swamp",
+  "color": "#3f5c4a"
+ },
+ "PINE": {
+  "ch": "n",
+  "name": "Rừng thông",
+  "walk": true,
+  "shade": true,
+  "swim": false,
+  "layer": 6,
+  "img": "tile_pine",
+  "color": "#2f5b3d"
+ },
+ "SHELL": {
+  "ch": "e",
+  "name": "Mai rùa",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 5,
+  "img": "tile_shell",
+  "color": "#7f8a50"
+ },
+ "GARDEN": {
+  "ch": "v",
+  "name": "Vườn rau",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 6,
+  "img": "tile_garden",
+  "color": "#6e5233"
+ },
+ "TIDEPOOL": {
+  "ch": "t",
+  "name": "Đầm đá",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 2,
+  "img": "tile_tidepool",
+  "color": "#56b0ad"
+ },
+ "CLAY": {
+  "ch": "y",
+  "name": "Đất sét",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 5,
+  "img": "tile_clay",
+  "color": "#b3764e"
+ },
+ "RIM": {
+  "ch": "r",
+  "name": "Mép mai",
+  "walk": true,
+  "shade": false,
+  "swim": false,
+  "layer": 3,
+  "img": "tile_rim",
+  "color": "#a39a6a"
+ },
+ "FLOOR": {
+  "ch": "o",
+  "name": "Sàn tháp",
+  "walk": true,
+  "shade": true,
+  "swim": false,
+  "layer": 8,
+  "img": "tile_floor",
+  "color": "#8c7d6a"
+ }
+}

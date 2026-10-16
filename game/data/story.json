@@ -1,0 +1,201 @@
+{
+ "intro": [
+  {
+   "who": "",
+   "text": "Đêm thứ ba trên chuyến tàu hàng nhỏ. {name} là nhân viên khảo sát thủy văn, đi nhờ ra đảo xa làm việc."
+  },
+  {
+   "who": "",
+   "text": "Cơn bão đến không báo trước. Sóng dựng đứng như vách núi. Con tàu nghiêng, rồi gãy đôi."
+  },
+  {
+   "who": "",
+   "text": "Bóng tối. Nước mặn. Một thùng gỗ trôi ngang qua, {name} bám lấy nó..."
+  }
+ ],
+ "wakeUp": [
+  {
+   "who": "{name}",
+   "text": "Mình... còn sống. Đây là đâu?"
+  },
+  {
+   "who": "{name}",
+   "text": "Nắng gắt quá, cổ họng khô rát. Phải tìm nước, tìm chỗ trú... rồi tìm đường về."
+  },
+  {
+   "who": "Hướng dẫn",
+   "text": "Kéo cần điều khiển (hoặc WASD) để đi. Nút Tương tác để nhặt, hái, chặt. Mở Chế tạo để làm công cụ. Nhiệm vụ hiện ở góc trái."
+  }
+ ],
+ "parrotJoin": [
+  {
+   "who": "Mõ",
+   "text": "Bống ơi! Bống ơi!"
+  },
+  {
+   "who": "{name}",
+   "text": "Bống là ai thế? ... Thôi, đi cùng ta nhé, Mõ."
+  }
+ ],
+ "peak": [
+  {
+   "who": "{name}",
+   "text": "Từ đỉnh mũi đá nhìn ra... phía tây có một hòn đảo, nước quanh đó lúc cạn lúc đầy."
+  },
+  {
+   "who": "Mõ",
+   "text": "Mai đi! Mai đi!",
+   "ifParrot": true
+  }
+ ],
+ "babyTurtle": [
+  {
+   "who": "",
+   "text": "Rùa con bò ra khỏi khe đá, ngoái lại nhìn bạn một lúc lâu rồi trườn xuống biển."
+  }
+ ],
+ "lighthouse": [
+  {
+   "who": "",
+   "text": "Ngọn hải đăng bừng sáng. Lần đầu tiên sau nhiều năm, sương mù quanh tháp lùi dần."
+  }
+ ],
+ "hooksCut": [
+  {
+   "who": "",
+   "text": "Lưỡi câu cuối cùng rơi xuống. Cả hòn đảo khẽ rùng mình, như một tiếng thở phào."
+  }
+ ],
+ "turtleEye": [
+  {
+   "who": "",
+   "text": "Con mắt khổng lồ khép hờ. Nó đang ngủ — nhưng không yên."
+  }
+ ],
+ "meetLam": [
+  {
+   "who": "",
+   "text": "Trong khe mai tối, một người đàn ông râu tóc bạc trắng ngẩng lên. Ông gầy guộc, đôi tay chai sạn."
+  },
+  {
+   "who": "Mõ",
+   "text": "LÂM! LÂM! Bống ơi! Bống ơi!",
+   "ifParrot": true
+  },
+  {
+   "who": "Lâm",
+   "text": "Mõ...? Mõ đấy à? Trời ơi... mày còn sống...",
+   "ifParrot": true
+  },
+  {
+   "who": "Lâm",
+   "text": "Người... người thật sao? Mười chín năm rồi tôi không thấy ai.",
+   "ifNoParrot": true
+  },
+  {
+   "who": "{name}",
+   "text": "Chú là Lâm? Ngư dân ở Lạch Vang? Cháu đã đọc nhật ký của chú, suốt dọc đường."
+  },
+  {
+   "who": "Lâm",
+   "text": "Cậu đã đi hết bốn hòn đảo... theo dấu tôi."
+  },
+  {
+   "who": "Lâm",
+   "text": "Hòn đảo này là lưng một con rùa. Chân trước nó quấn lưới và lưỡi câu sắt. Tôi đi thì nó chết. Nên tôi ở lại."
+  },
+  {
+   "who": "Lâm",
+   "text": "Cầm lấy trang này. Tôi viết nó cho người nào đó... đi xa hơn tôi từng dám."
+  }
+ ],
+ "lamNet": [
+  {
+   "who": "Lâm",
+   "text": "Chân trước của nó, ở phía đông nam. Lưới quấn chặt lắm. Lưỡi câu sắt thì dao đá của tôi chịu."
+  }
+ ],
+ "lamNetIron": [
+  {
+   "who": "Lâm",
+   "text": "Cậu có dao sắt ư? Vậy thì có lẽ... cắt được lưỡi câu."
+  }
+ ],
+ "invite": {
+  "ask": {
+   "who": "{name}",
+   "text": "Chú Lâm, về cùng cháu đi. Bống vẫn đang đợi chú."
+  },
+  "manyPages": {
+   "who": "{name}",
+   "text": "Cháu có {pages} trang nhật ký của chú. Chú đã viết về Bống ở mọi hòn đảo."
+  },
+  "fewPages": {
+   "who": "{name}",
+   "text": "Cháu chỉ nhặt được {pages} trang nhật ký của chú..."
+  },
+  "fish": {
+   "who": "{name}",
+   "text": "Và cái này — con cá sắt chú làm cho Bống. Chú phải tự tay đưa cho em ấy."
+  },
+  "hooksLeft": [
+   {
+    "who": "Lâm",
+    "text": "Lưỡi câu vẫn còn cắm trong chân nó. Tôi không bỏ nó được. Cậu đi đi, kẻo nó tỉnh dậy."
+   }
+  ],
+  "agree": [
+   {
+    "who": "Lâm",
+    "text": "(Lâm cầm con cá sắt, lật đi lật lại rất lâu.)"
+   },
+   {
+    "who": "Lâm",
+    "text": "Nó khỏi rồi... Nó không cần tôi nữa. Còn Bống... có lẽ vẫn cần."
+   },
+   {
+    "who": "Lâm",
+    "text": "Được. Tôi về."
+   }
+  ],
+  "stay": [
+   {
+    "who": "Lâm",
+    "text": "Cảm ơn cậu đã cứu nó. Nhưng mười chín năm rồi... tôi biết nói gì với con bé đây?"
+   },
+   {
+    "who": "Lâm",
+    "text": "Cậu mang lá thư này về giúp tôi. Tôi ở lại với nó."
+   }
+  ],
+  "afterAgree": [
+   {
+    "who": "Lâm",
+    "text": "Đi thôi. Ra bãi bè phía tây."
+   }
+  ],
+  "afterStay": [
+   {
+    "who": "Lâm",
+    "text": "Đi đi, kẻo rùa tỉnh."
+   }
+  ]
+ },
+ "turtleDives": [
+  {
+   "who": "",
+   "text": "Mặt đất rung chuyển dữ dội. Con rùa khổng lồ đã tỉnh giấc..."
+  },
+  {
+   "who": "",
+   "text": "Nó lặn xuống biển sâu. Bạn bị cuốn trôi, và tỉnh lại trên chiếc bè ở mép mai — như lúc mới đến."
+  },
+  {
+   "who": "Mẹo",
+   "text": "Tránh chặt cây, đốt lửa to và chạy liên tục. Dép rơm giúp đi nhẹ hơn."
+  }
+ ],
+ "deathNormal": "Bạn gục ngã vì {why}... Tỉnh dậy ở trại gần nhất. Một nửa nguyên liệu trong túi đã mất.",
+ "deathHard": "Bạn đã gục ngã ({why}). Chế độ Khó: chơi lại từ đầu đảo này.",
+ "raftBroken": "Bè vỡ nát và dạt ngược về đảo cũ. Bạn vẫn giữ được đồ, nhưng phải sửa bè ở bãi đóng bè (4 cành, 2 dây)."
+}

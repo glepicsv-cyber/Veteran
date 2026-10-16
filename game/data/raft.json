@@ -1,0 +1,32 @@
+[
+ {
+  "cap": 0,
+  "speed": 1,
+  "wave": 0,
+  "part": ""
+ },
+ {
+  "cap": 4,
+  "speed": 1,
+  "wave": 1,
+  "part": "Khung bè"
+ },
+ {
+  "cap": 6,
+  "speed": 1.2,
+  "wave": 1,
+  "part": "Mái chèo, dây buộc"
+ },
+ {
+  "cap": 8,
+  "speed": 1.2,
+  "wave": 2,
+  "part": "Chống thấm, gia cố sắt"
+ },
+ {
+  "cap": 10,
+  "speed": 1.6,
+  "wave": 3,
+  "part": "Buồm, la bàn"
+ }
+]

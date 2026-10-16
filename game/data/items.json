@@ -1,0 +1,302 @@
+{
+ "coconut": {
+  "n": "Trái dừa",
+  "type": "food",
+  "f": 10,
+  "w": 20,
+  "needTool": [
+   "stone_knife",
+   "iron_knife"
+  ],
+  "gives": "coconut_shell",
+  "d": "Cần dao để bổ. Uống nước, ăn cùi."
+ },
+ "husk": {
+  "n": "Xơ dừa",
+  "type": "mat",
+  "d": "Bện thành dây."
+ },
+ "palm_leaf": {
+  "n": "Lá dừa",
+  "type": "mat"
+ },
+ "branch": {
+  "n": "Cành cây",
+  "type": "mat"
+ },
+ "drybranch": {
+  "n": "Cành khô",
+  "type": "mat",
+  "d": "Dùng làm bộ khoan lửa."
+ },
+ "firewood": {
+  "n": "Củi",
+  "type": "mat"
+ },
+ "palm_trunk": {
+  "n": "Thân dừa",
+  "type": "mat",
+  "stack": 10
+ },
+ "stone": {
+  "n": "Đá",
+  "type": "mat"
+ },
+ "flat_stone": {
+  "n": "Đá dẹt",
+  "type": "mat"
+ },
+ "plastic": {
+  "n": "Mảnh nhựa",
+  "type": "mat"
+ },
+ "coir_rope": {
+  "n": "Dây xơ dừa",
+  "type": "mat"
+ },
+ "coconut_shell": {
+  "n": "Vỏ dừa",
+  "type": "mat"
+ },
+ "water": {
+  "n": "Nước ngọt",
+  "type": "drink",
+  "w": 25,
+  "d": "Uống để giải khát."
+ },
+ "crab": {
+  "n": "Cua",
+  "type": "mat",
+  "d": "Nướng lên mới ăn được."
+ },
+ "cooked_crab": {
+  "n": "Cua nướng",
+  "type": "food",
+  "f": 25,
+  "w": 0
+ },
+ "fish": {
+  "n": "Cá",
+  "type": "mat"
+ },
+ "cooked_fish": {
+  "n": "Cá nướng",
+  "type": "food",
+  "f": 30,
+  "w": 0
+ },
+ "shellfish": {
+  "n": "Sò",
+  "type": "mat"
+ },
+ "steamed_shellfish": {
+  "n": "Sò hấp",
+  "type": "food",
+  "f": 20,
+  "w": 10,
+  "hp": 5
+ },
+ "seaweed": {
+  "n": "Rong biển",
+  "type": "mat"
+ },
+ "seaweed_soup": {
+  "n": "Canh rong biển",
+  "type": "food",
+  "f": 35,
+  "w": 15,
+  "heat": -20
+ },
+ "sweet_potato": {
+  "n": "Củ khoai",
+  "type": "mat",
+  "d": "Củ từ vườn của Lâm."
+ },
+ "turtle_potato": {
+  "n": "Khoai mai rùa",
+  "type": "food",
+  "f": 40,
+  "w": 0,
+  "hp": 15
+ },
+ "stone_knife": {
+  "n": "Dao đá",
+  "type": "tool",
+  "d": "Bổ dừa, cắt dây, gỡ lưới."
+ },
+ "stone_axe": {
+  "n": "Rìu đá",
+  "type": "tool",
+  "d": "Chặt thân cây."
+ },
+ "fire_drill": {
+  "n": "Bộ khoan lửa",
+  "type": "tool",
+  "d": "Cần để nhóm đống lửa."
+ },
+ "bamboo": {
+  "n": "Tre",
+  "type": "mat"
+ },
+ "mangrove_leaf": {
+  "n": "Lá đước",
+  "type": "mat"
+ },
+ "sisal": {
+  "n": "Sợi gai",
+  "type": "mat"
+ },
+ "hemp_rope": {
+  "n": "Dây thừng",
+  "type": "mat"
+ },
+ "plank": {
+  "n": "Ván gỗ",
+  "type": "mat"
+ },
+ "nail": {
+  "n": "Đinh cũ",
+  "type": "mat"
+ },
+ "lens": {
+  "n": "Thấu kính đèn",
+  "type": "key",
+  "d": "Thấu kính từ đèn tàu. Đảo 4 cần đến."
+ },
+ "oar": {
+  "n": "Mái chèo",
+  "type": "mat"
+ },
+ "seashell": {
+  "n": "Vỏ ốc",
+  "type": "mat"
+ },
+ "bark": {
+  "n": "Vỏ cây",
+  "type": "mat"
+ },
+ "clay": {
+  "n": "Đất sét",
+  "type": "mat"
+ },
+ "ore": {
+  "n": "Quặng sắt",
+  "type": "mat"
+ },
+ "charcoal": {
+  "n": "Than",
+  "type": "mat"
+ },
+ "resin": {
+  "n": "Nhựa cây",
+  "type": "mat"
+ },
+ "sulfur": {
+  "n": "Lưu huỳnh",
+  "type": "mat"
+ },
+ "iron_ingot": {
+  "n": "Thỏi sắt",
+  "type": "mat",
+  "d": "Đảo 4 có thể cần đến."
+ },
+ "iron_nail": {
+  "n": "Đinh sắt",
+  "type": "mat"
+ },
+ "iron_knife": {
+  "n": "Dao sắt",
+  "type": "tool",
+  "d": "Cắt được cả lưỡi câu sắt."
+ },
+ "bark_sandals": {
+  "n": "Dép vỏ cây",
+  "type": "wear",
+  "d": "Giảm Nhiệt từ mặt đất nóng."
+ },
+ "cooling_flask": {
+  "n": "Bình làm mát",
+  "type": "use",
+  "d": "Dùng 1 nước ngọt để hạ 30 Nhiệt."
+ },
+ "heat_glue": {
+  "n": "Keo chịu nhiệt",
+  "type": "mat"
+ },
+ "clay_pot": {
+  "n": "Nồi đất",
+  "type": "tool",
+  "d": "Dùng để nấu canh."
+ },
+ "colored_stone": {
+  "n": "Đá màu",
+  "type": "mat"
+ },
+ "pine_resin": {
+  "n": "Nhựa thông",
+  "type": "mat"
+ },
+ "torch": {
+  "n": "Đuốc",
+  "type": "use",
+  "d": "Thắp sáng trong 3 phút."
+ },
+ "glass_jar": {
+  "n": "Hũ thủy tinh",
+  "type": "mat"
+ },
+ "firefly": {
+  "n": "Đom đóm",
+  "type": "mat"
+ },
+ "lantern": {
+  "n": "Đèn đom đóm",
+  "type": "use",
+  "d": "Thắp sáng trong 6 phút."
+ },
+ "jute": {
+  "n": "Sợi đay",
+  "type": "mat"
+ },
+ "sail_cloth": {
+  "n": "Vải buồm",
+  "type": "mat"
+ },
+ "lodestone": {
+  "n": "Đá nam châm",
+  "type": "mat"
+ },
+ "iron_needle": {
+  "n": "Kim sắt",
+  "type": "mat"
+ },
+ "compass": {
+  "n": "La bàn",
+  "type": "mat"
+ },
+ "glass_shard": {
+  "n": "Mảnh thủy tinh",
+  "type": "mat"
+ },
+ "lamp_oil": {
+  "n": "Dầu đèn",
+  "type": "mat"
+ },
+ "wind_chime": {
+  "n": "Chuông gió",
+  "type": "mat"
+ },
+ "seagrass": {
+  "n": "Cỏ biển",
+  "type": "mat"
+ },
+ "straw_sandals": {
+  "n": "Dép rơm",
+  "type": "wear",
+  "d": "Đi nhẹ, giảm tiếng động khi chạy."
+ },
+ "bag": {
+  "n": "Túi đan",
+  "type": "mat"
+ }
+}

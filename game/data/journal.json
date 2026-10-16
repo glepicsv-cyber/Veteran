@@ -1,0 +1,131 @@
+{
+ "pages": [
+  {
+   "id": "p1_1",
+   "isl": 1,
+   "t": "Ngày 1",
+   "x": "Tàu chìm rồi. Tôi bám được cái thùng đá, trôi một đêm mới dạt vào đây. Không thấy ai khác. Nếu ai đọc được, tôi là Lâm, ngư dân ở Lạch Vang."
+  },
+  {
+   "id": "p1_2",
+   "isl": 1,
+   "t": "Ngày 3",
+   "x": "Uống nước dừa mãi thì đau bụng. Tôi úp vỏ dừa lên nồi nước biển đang sôi, hơi bám vào thành nước ngọt. Ít thôi, nhưng sống được."
+  },
+  {
+   "id": "p1_3",
+   "isl": 1,
+   "t": "Ngày 9",
+   "x": "Có con vẹt cứ đậu trên mái lều. Tôi gọi nó là Mõ vì nó gõ mỏ suốt ngày. Đang dạy nó nói \"Bống ơi\", tên con gái tôi."
+  },
+  {
+   "id": "p1_4",
+   "isl": 1,
+   "t": "Ngày 21",
+   "x": "Bè xong. Từ mũi đá thấy một đảo phía tây, nước quanh đó lúc cạn lúc đầy. Mai đi. Mõ ở lại giữ nhà nhé."
+  },
+  {
+   "id": "p2_1",
+   "isl": 2,
+   "t": "Ngày 24",
+   "x": "Đảo này biết thở. Nước lên nhanh như có ai mở cống, tôi mất nửa số đồ ngay đợt đầu. Nhớ: chỗ nào rêu khô là chỗ nước không lên tới."
+  },
+  {
+   "id": "p2_2",
+   "isl": 2,
+   "t": "Ngày 30",
+   "x": "Nước lên rồi rút đều như nhịp tim. Tôi cắm cọc, khắc vạch để đếm."
+  },
+  {
+   "id": "p2_3",
+   "isl": 2,
+   "t": "Ngày 41",
+   "x": "Gỡ được một con rùa con mắc trong khe đá. Nó nhìn tôi như người. Chiều đó, ngoài khơi có thứ gì rất lớn trồi lên rồi chìm."
+  },
+  {
+   "id": "p2_4",
+   "isl": 2,
+   "t": "Ngày 47",
+   "x": "Tôi để hòm đồ trong hang triều, dây thừng trong đó vẫn còn tốt. Ai đến sau thì vào lúc nước vừa rút. Đừng tham."
+  },
+  {
+   "id": "p3_1",
+   "isl": 3,
+   "t": "Ngày 52",
+   "x": "Đất nóng đến cháy đế dép. Bó vỏ cây vào chân thì đi được."
+  },
+  {
+   "id": "p3_2",
+   "isl": 3,
+   "t": "Ngày 60",
+   "x": "Núi phun, trại mất một nửa. Nhưng sáng ra, dòng đá nguội thành con đường sang sườn đông."
+  },
+  {
+   "id": "p3_3",
+   "isl": 3,
+   "t": "Ngày 68",
+   "x": "Bống chắc đã biết đi rồi. Tôi nung được sắt, làm cho con một con cá sắt nhỏ. Để dành, khi nào về thì đưa."
+  },
+  {
+   "id": "p3_4",
+   "isl": 3,
+   "t": "Ngày 75",
+   "x": "Nhựa cây rừng cháy nấu với đá vàng thì dẻo như keo, bè hết thấm nước. Phía bắc chỉ thấy sương."
+  },
+  {
+   "id": "p4_1",
+   "isl": 4,
+   "t": "Ngày 80",
+   "x": "Ở đây tôi không thấy nổi bàn tay mình. Ngày hay đêm cũng như nhau."
+  },
+  {
+   "id": "p4_2",
+   "isl": 4,
+   "t": "Ngày 86",
+   "x": "Tôi treo chuông gió vỏ ốc dọc đường đi. Lạc thì nghe tiếng chuông mà về."
+  },
+  {
+   "id": "p4_3",
+   "isl": 4,
+   "t": "Ngày 97",
+   "x": "Có ngọn tháp cũ, ai đó từng ở đây trước cả tôi. Tôi không thắp được đèn vì thiếu tấm kính."
+  },
+  {
+   "id": "p4_4",
+   "isl": 4,
+   "t": "Ngày 110",
+   "x": "Kim sắt cọ vào đá đen thì chỉ về một hướng. Có la bàn rồi. Mà ngoài kia, có một hòn đảo đang di chuyển."
+  },
+  {
+   "id": "p5_1",
+   "isl": 5,
+   "t": "Ngày 118",
+   "x": "Đảo này không có trên bản đồ nào. Đêm qua mặt đất nghiêng như sắp lật."
+  },
+  {
+   "id": "p5_2",
+   "isl": 5,
+   "t": "Ngày 125",
+   "x": "Đây là lưng một con rùa. Chân trước nó quấn lưới và lưỡi câu sắt, vết thương đã thối. Nó nhìn tôi y như con rùa con năm ấy."
+  },
+  {
+   "id": "p5_3",
+   "isl": 5,
+   "t": "Ngày 140",
+   "x": "Gỡ được nửa tấm lưới, dao đá không cắt nổi lưỡi câu. Tôi đi thì nó chết. Bống ơi, bố xin lỗi."
+  },
+  {
+   "id": "p5_4",
+   "isl": 5,
+   "t": "Năm thứ 19",
+   "x": "(nét chữ run) Tôi vẫn ở đây. Rùa đi đâu, tôi đi đó. Nếu cậu đọc được trang này, cậu đã đi xa hơn tôi từng dám. Lá thư kẹp sau trang này, nhờ cậu đưa về Lạch Vang."
+  }
+ ],
+ "letter": "Bống của bố, chắc giờ con đã lớn hơn cả bố ngày đi biển. Bố không về được không phải vì bố quên đường. Có một sinh vật đã cứu bố, và bố ở lại để trả ơn nó. Con cá sắt này bố làm cho con từ năm con mới biết đi. Bố thương con.",
+ "relics": {
+  "iron_fish": {
+   "n": "Con cá sắt",
+   "d": "Lâm nung cho Bống ở Đảo Núi Lửa. \"Để dành, khi nào về thì đưa.\""
+  }
+ }
+}

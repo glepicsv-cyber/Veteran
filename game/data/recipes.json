@@ -1,0 +1,681 @@
+{
+ "stations": {
+  "hand": "Bằng tay",
+  "fire": "Cạnh đống lửa",
+  "kiln": "Cạnh lò nung",
+  "loom": "Cạnh khung dệt",
+  "camp": "Ở trại",
+  "raftsite": "Bãi đóng bè",
+  "zone:rung_duoc": "Trong rừng đước",
+  "zone:bai_bun": "Trên bãi bùn"
+ },
+ "recipes": [
+  {
+   "id": "coir_rope",
+   "isl": 1,
+   "needs": {
+    "husk": 3
+   },
+   "out": {
+    "coir_rope": 1
+   },
+   "st": "hand",
+   "time": 1.2,
+   "icon": "coir_rope"
+  },
+  {
+   "id": "stone_knife",
+   "isl": 1,
+   "needs": {
+    "stone": 2,
+    "coir_rope": 1
+   },
+   "out": {
+    "stone_knife": 1
+   },
+   "st": "hand",
+   "time": 1.5,
+   "icon": "stone_knife"
+  },
+  {
+   "id": "stone_axe",
+   "isl": 1,
+   "needs": {
+    "flat_stone": 1,
+    "branch": 1,
+    "coir_rope": 2
+   },
+   "out": {
+    "stone_axe": 1
+   },
+   "st": "hand",
+   "time": 1.5,
+   "icon": "stone_axe"
+  },
+  {
+   "id": "tent",
+   "isl": 1,
+   "n": "Lều lá",
+   "needs": {
+    "palm_leaf": 6,
+    "branch": 4
+   },
+   "build": "tent",
+   "st": "hand",
+   "time": 2.5,
+   "d": "Trú nắng, ngủ qua đêm, có rương 20 ô, điểm hồi sinh.",
+   "icon": "tent"
+  },
+  {
+   "id": "fire_drill",
+   "isl": 1,
+   "needs": {
+    "drybranch": 2,
+    "coir_rope": 1
+   },
+   "out": {
+    "fire_drill": 1
+   },
+   "st": "hand",
+   "time": 1.5,
+   "icon": "fire_drill"
+  },
+  {
+   "id": "fire_drill2",
+   "isl": 2,
+   "needs": {
+    "drybranch": 2,
+    "hemp_rope": 1
+   },
+   "out": {
+    "fire_drill": 1
+   },
+   "st": "hand",
+   "time": 1.5,
+   "icon": "fire_drill"
+  },
+  {
+   "id": "campfire",
+   "isl": 1,
+   "n": "Đống lửa",
+   "needs": {
+    "firewood": 5,
+    "stone": 3
+   },
+   "tools": [
+    "fire_drill"
+   ],
+   "build": "campfire",
+   "st": "hand",
+   "time": 2.5,
+   "d": "Nấu ăn, sưởi, hồi Thể lực, ánh sáng.",
+   "icon": "campfire"
+  },
+  {
+   "id": "still",
+   "isl": 1,
+   "n": "Bộ chưng cất",
+   "needs": {
+    "coconut_shell": 2,
+    "plastic": 1
+   },
+   "build": "still",
+   "st": "fire",
+   "time": 2,
+   "d": "Đặt cạnh đống lửa: biến nước biển thành nước ngọt.",
+   "icon": "still"
+  },
+  {
+   "id": "bag16",
+   "isl": 1,
+   "n": "Túi đan (16 ô)",
+   "needs": {
+    "coir_rope": 6,
+    "palm_leaf": 2
+   },
+   "special": "bag16",
+   "st": "hand",
+   "time": 2,
+   "d": "Mở rộng túi lên 16 ô.",
+   "icon": "bag"
+  },
+  {
+   "id": "raft1",
+   "isl": 1,
+   "n": "Khung bè",
+   "needs": {
+    "palm_trunk": 10,
+    "coir_rope": 8
+   },
+   "raft": 1,
+   "st": "raftsite",
+   "time": 4,
+   "d": "Bộ phận bè 1: bè chứa 4 ô.",
+   "icon": "raft1"
+  },
+  {
+   "id": "cooked_crab",
+   "isl": 1,
+   "needs": {
+    "crab": 1
+   },
+   "out": {
+    "cooked_crab": 1
+   },
+   "st": "fire",
+   "time": 2,
+   "cook": true,
+   "flag": "recipe_crab",
+   "icon": "cooked_crab"
+  },
+  {
+   "id": "cooked_fish",
+   "isl": 1,
+   "needs": {
+    "fish": 1
+   },
+   "out": {
+    "cooked_fish": 1
+   },
+   "st": "fire",
+   "time": 2,
+   "cook": true,
+   "icon": "cooked_fish"
+  },
+  {
+   "id": "tide_gauge",
+   "isl": 2,
+   "n": "Thước triều",
+   "needs": {
+    "bamboo": 1,
+    "stone": 2
+   },
+   "build": "tide_gauge",
+   "st": "hand",
+   "time": 2,
+   "d": "Đồng hồ triều hiện chính xác.",
+   "icon": "tide_gauge"
+  },
+  {
+   "id": "stilt_hut",
+   "isl": 2,
+   "n": "Chòi sàn",
+   "needs": {
+    "bamboo": 8,
+    "mangrove_leaf": 6,
+    "coir_rope": 4
+   },
+   "alt": {
+    "bamboo": 8,
+    "mangrove_leaf": 6,
+    "hemp_rope": 2
+   },
+   "build": "stilt_hut",
+   "st": "zone:rung_duoc",
+   "time": 3,
+   "d": "Trại không bị ngập. Ngủ, rương, hồi sinh.",
+   "icon": "stilt_hut"
+  },
+  {
+   "id": "fish_trap",
+   "isl": 2,
+   "n": "Bẫy cá đá",
+   "needs": {
+    "stone": 10
+   },
+   "build": "fish_trap",
+   "st": "zone:bai_bun",
+   "time": 2.5,
+   "d": "Có cá sau mỗi đợt nước rút.",
+   "icon": "fish_trap"
+  },
+  {
+   "id": "hemp_rope",
+   "isl": 2,
+   "needs": {
+    "sisal": 3
+   },
+   "out": {
+    "hemp_rope": 1
+   },
+   "st": "hand",
+   "time": 1.2,
+   "icon": "hemp_rope"
+  },
+  {
+   "id": "oar",
+   "isl": 2,
+   "needs": {
+    "plank": 2,
+    "hemp_rope": 1
+   },
+   "out": {
+    "oar": 1
+   },
+   "st": "camp",
+   "time": 2,
+   "icon": "oar"
+  },
+  {
+   "id": "raft2",
+   "isl": 2,
+   "n": "Lắp mái chèo & dây buộc",
+   "needs": {
+    "oar": 2,
+    "hemp_rope": 1
+   },
+   "raft": 2,
+   "st": "raftsite",
+   "time": 4,
+   "d": "Bè nhanh hơn 20%, chứa 6 ô.",
+   "icon": "raft2"
+  },
+  {
+   "id": "steamed_shellfish",
+   "isl": 2,
+   "needs": {
+    "shellfish": 3,
+    "water": 1
+   },
+   "out": {
+    "steamed_shellfish": 1
+   },
+   "st": "fire",
+   "time": 2,
+   "cook": true,
+   "icon": "steamed_shellfish"
+  },
+  {
+   "id": "bark_rope",
+   "isl": 3,
+   "n": "Dây vỏ cây",
+   "needs": {
+    "bark": 3
+   },
+   "out": {
+    "hemp_rope": 1
+   },
+   "st": "hand",
+   "time": 1.2,
+   "icon": "hemp_rope"
+  },
+  {
+   "id": "bark_sandals",
+   "isl": 3,
+   "needs": {
+    "bark": 2,
+    "hemp_rope": 1
+   },
+   "out": {
+    "bark_sandals": 1
+   },
+   "st": "hand",
+   "time": 1.5,
+   "icon": "bark_sandals"
+  },
+  {
+   "id": "kiln",
+   "isl": 3,
+   "n": "Lò nung",
+   "needs": {
+    "clay": 8,
+    "stone": 4
+   },
+   "build": "kiln",
+   "st": "camp",
+   "time": 3,
+   "d": "Nung quặng, làm gốm. Phải xây ở trại (cạnh lửa/lều).",
+   "icon": "kiln"
+  },
+  {
+   "id": "cooling_flask",
+   "isl": 3,
+   "needs": {
+    "clay": 3,
+    "water": 1
+   },
+   "out": {
+    "cooling_flask": 1
+   },
+   "st": "kiln",
+   "time": 2,
+   "icon": "cooling_flask"
+  },
+  {
+   "id": "clay_pot",
+   "isl": 3,
+   "needs": {
+    "clay": 2
+   },
+   "out": {
+    "clay_pot": 1
+   },
+   "st": "kiln",
+   "time": 2,
+   "icon": "clay_pot"
+  },
+  {
+   "id": "iron_ingot",
+   "isl": 3,
+   "needs": {
+    "ore": 2,
+    "charcoal": 3
+   },
+   "out": {
+    "iron_ingot": 1
+   },
+   "st": "kiln",
+   "time": 3,
+   "icon": "iron_ingot"
+  },
+  {
+   "id": "iron_nail",
+   "isl": 3,
+   "needs": {
+    "iron_ingot": 1
+   },
+   "out": {
+    "iron_nail": 4
+   },
+   "st": "kiln",
+   "time": 2,
+   "icon": "iron_nail"
+  },
+  {
+   "id": "iron_knife",
+   "isl": 3,
+   "needs": {
+    "iron_ingot": 1,
+    "branch": 1
+   },
+   "out": {
+    "iron_knife": 1
+   },
+   "st": "kiln",
+   "time": 3,
+   "icon": "iron_knife"
+  },
+  {
+   "id": "heat_glue",
+   "isl": 3,
+   "needs": {
+    "resin": 2,
+    "sulfur": 1
+   },
+   "out": {
+    "heat_glue": 1
+   },
+   "st": "fire",
+   "time": 2,
+   "icon": "heat_glue"
+  },
+  {
+   "id": "stove",
+   "isl": 3,
+   "n": "Bếp đá",
+   "needs": {
+    "stone": 6,
+    "clay": 2
+   },
+   "build": "stove",
+   "st": "camp",
+   "time": 3,
+   "d": "Nấu ăn nhanh gấp đôi.",
+   "icon": "stove"
+  },
+  {
+   "id": "raft3",
+   "isl": 3,
+   "n": "Chống thấm & gia cố",
+   "needs": {
+    "heat_glue": 2,
+    "iron_nail": 4
+   },
+   "raft": 3,
+   "st": "raftsite",
+   "time": 4,
+   "d": "Bè chịu sóng cấp 2, chứa 8 ô.",
+   "icon": "raft3"
+  },
+  {
+   "id": "seaweed_soup",
+   "isl": 3,
+   "needs": {
+    "seaweed": 2,
+    "water": 1
+   },
+   "tools": [
+    "clay_pot"
+   ],
+   "out": {
+    "seaweed_soup": 1
+   },
+   "st": "fire",
+   "time": 2,
+   "cook": true,
+   "icon": "seaweed_soup"
+  },
+  {
+   "id": "torch",
+   "isl": 4,
+   "needs": {
+    "branch": 1,
+    "pine_resin": 1
+   },
+   "out": {
+    "torch": 1
+   },
+   "st": "hand",
+   "time": 1.2,
+   "icon": "torch"
+  },
+  {
+   "id": "lantern",
+   "isl": 4,
+   "needs": {
+    "glass_jar": 1,
+    "firefly": 5
+   },
+   "out": {
+    "lantern": 1
+   },
+   "st": "hand",
+   "time": 1.5,
+   "icon": "lantern"
+  },
+  {
+   "id": "jute_rope",
+   "isl": 4,
+   "n": "Dây đay",
+   "needs": {
+    "jute": 3
+   },
+   "out": {
+    "hemp_rope": 1
+   },
+   "st": "hand",
+   "time": 1.2,
+   "icon": "hemp_rope"
+  },
+  {
+   "id": "wind_chime",
+   "isl": 4,
+   "n": "Chuông gió",
+   "needs": {
+    "seashell": 4,
+    "hemp_rope": 1
+   },
+   "build": "chime",
+   "st": "hand",
+   "time": 2,
+   "d": "Treo mốc âm thanh của riêng bạn.",
+   "icon": "wind_chime"
+  },
+  {
+   "id": "loom",
+   "isl": 4,
+   "n": "Khung dệt",
+   "needs": {
+    "branch": 4,
+    "hemp_rope": 2
+   },
+   "build": "loom",
+   "st": "camp",
+   "time": 3,
+   "d": "Dệt vải buồm.",
+   "icon": "loom"
+  },
+  {
+   "id": "sail_cloth",
+   "isl": 4,
+   "needs": {
+    "jute": 6
+   },
+   "out": {
+    "sail_cloth": 1
+   },
+   "st": "loom",
+   "time": 3,
+   "icon": "sail_cloth"
+  },
+  {
+   "id": "lamp_oil",
+   "isl": 4,
+   "needs": {
+    "pine_resin": 3
+   },
+   "out": {
+    "lamp_oil": 1
+   },
+   "st": "fire",
+   "time": 2,
+   "icon": "lamp_oil"
+  },
+  {
+   "id": "lens_glass",
+   "isl": 4,
+   "n": "Ghép thấu kính",
+   "needs": {
+    "glass_shard": 6
+   },
+   "out": {
+    "lens": 1
+   },
+   "st": "fire",
+   "time": 3,
+   "icon": "lens"
+  },
+  {
+   "id": "iron_needle",
+   "isl": 4,
+   "needs": {
+    "iron_ingot": 1
+   },
+   "out": {
+    "iron_needle": 1
+   },
+   "st": "hand",
+   "time": 1.5,
+   "icon": "iron_needle"
+  },
+  {
+   "id": "compass",
+   "isl": 4,
+   "needs": {
+    "lodestone": 1,
+    "iron_needle": 1,
+    "seashell": 1
+   },
+   "out": {
+    "compass": 1
+   },
+   "st": "hand",
+   "time": 2,
+   "icon": "compass"
+  },
+  {
+   "id": "bag20",
+   "isl": 4,
+   "n": "Túi đan lớn (20 ô)",
+   "needs": {
+    "hemp_rope": 3,
+    "jute": 3
+   },
+   "special": "bag20",
+   "st": "hand",
+   "time": 2,
+   "d": "Mở rộng túi lên 20 ô.",
+   "icon": "bag"
+  },
+  {
+   "id": "raft4",
+   "isl": 4,
+   "n": "Lắp buồm & la bàn",
+   "needs": {
+    "sail_cloth": 1,
+    "compass": 1
+   },
+   "raft": 4,
+   "st": "raftsite",
+   "time": 4,
+   "d": "Bè nhanh hơn 60%, chứa 10 ô, chặng cuối hiện hướng đi.",
+   "icon": "raft4"
+  },
+  {
+   "id": "straw_sandals",
+   "isl": 5,
+   "needs": {
+    "seagrass": 4
+   },
+   "out": {
+    "straw_sandals": 1
+   },
+   "st": "hand",
+   "time": 1.5,
+   "icon": "straw_sandals"
+  },
+  {
+   "id": "seagrass_rope",
+   "isl": 5,
+   "n": "Dây cỏ biển",
+   "needs": {
+    "seagrass": 3
+   },
+   "out": {
+    "coir_rope": 1
+   },
+   "st": "hand",
+   "time": 1.2,
+   "icon": "coir_rope"
+  },
+  {
+   "id": "turtle_potato",
+   "isl": 5,
+   "needs": {
+    "sweet_potato": 2
+   },
+   "out": {
+    "turtle_potato": 1
+   },
+   "st": "fire",
+   "time": 2,
+   "cook": true,
+   "icon": "turtle_potato"
+  },
+  {
+   "id": "repair",
+   "isl": 1,
+   "n": "Sửa bè",
+   "needs": {
+    "branch": 4
+   },
+   "anyRope": 2,
+   "special": "repair",
+   "st": "raftsite",
+   "time": 3,
+   "d": "Sửa bè bị hỏng sau chặng biển.",
+   "flag": "raft_broken",
+   "icon": "repair"
+  }
+ ]
+}

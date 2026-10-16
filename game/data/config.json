@@ -1,0 +1,27 @@
+{
+ "tileSize": 32,
+ "startTime": 60,
+ "dayLength": 720,
+ "longNightDayLength": 960,
+ "nightStart": 480,
+ "start": {"hp": 100, "hunger": 80, "thirst": 70, "sta": 100, "invSize": 12},
+ "rates": {
+  "hungerEvery": 20,
+  "thirstEvery": 12,
+  "starveDmgEvery": 5,
+  "dehydrateDmgEvery": 3,
+  "droughtMul": 1.5,
+  "runDrain": 12,
+  "swimDrain": 8,
+  "regenIdle": 14,
+  "regenWalk": 5,
+  "regenFire": 25,
+  "wellFedRegen": 0.08
+ },
+ "move": {"walk": 3.4, "run": 5.4, "swimMul": 0.55, "mudMul": 0.85, "panicMul": 0.8, "reach": 1.35},
+ "sleep": {"hunger": 15, "thirst": 20, "hp": 35},
+ "death": {"hp": 60, "minFood": 45},
+ "stillEvery": 25,
+ "stillMax": 3,
+ "autosave": 20
+}

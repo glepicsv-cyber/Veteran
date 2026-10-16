@@ -1,0 +1,46 @@
+{
+ "together": {
+  "n": "Về Cùng Nhau",
+  "tag": "Kết thúc tốt nhất",
+  "lines": [
+   "Rùa khẽ cựa mình. Lần đầu tiên sau mười chín năm, nó không lặn xuống.",
+   "Nó bơi về hướng tây, chở theo chiếc bè nhỏ và hai con người.",
+   "Ở cửa biển Lạch Vang, một cô gái hai mươi tuổi đứng trên bến.",
+   "Lâm bước lên bờ, run run đặt vào tay cô con cá sắt.",
+   "\"Bống ơi.\" Mõ kêu lên. Lần này, có người quay lại."
+  ]
+ },
+ "stay": {
+  "n": "Người Ở Lại",
+  "tag": "Kết thúc",
+  "lines": [
+   "Lâm đứng trên mép mai, nhìn bè của bạn rời đi.",
+   "\"Mười chín năm rồi. Tôi không biết phải nói gì với con bé.\"",
+   "Bạn mang lá thư về Lạch Vang.",
+   "Người con gái đọc thư rất lâu, rồi nhìn ra biển.",
+   "Ngoài khơi, một hòn đảo lặng lẽ trôi về phía đông."
+  ]
+ },
+ "alone": {
+  "n": "Một Mình Về Bờ",
+  "tag": "Kết thúc",
+  "lines": [
+   "Bạn ra khơi trước khi rùa tỉnh giấc.",
+   "Sau lưng, Lâm vẫn ngồi bên cái chân rùa quấn đầy lưỡi câu.",
+   "Vài tuần sau, bản tin buổi tối đưa tin:",
+   "\"Ngư dân Lạch Vang phát hiện một hòn đảo lạ di chuyển ngoài khơi...\"",
+   "Bạn tắt tivi. Mõ gõ mỏ lên khung cửa sổ."
+  ]
+ },
+ "secret": {
+  "n": "Người Đi Sau",
+  "tag": "Cảnh bí mật",
+  "lines": [
+   "Sau tất cả, khi bè đã gần bờ...",
+   "Một con rùa nhỏ — nay đã lớn hơn nhiều — bơi theo sát mạn bè.",
+   "Chính là con rùa con bạn từng gỡ ra khỏi khe đá ở Đảo Thủy Triều.",
+   "Có lẽ, rồi sẽ có người đi sau bạn.",
+   "Chế độ Thử thách đã mở khóa."
+  ]
+ }
+}

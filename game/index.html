@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#0d2b45">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Người Đi Trước</title>
+<link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+<div id="app">
+  <canvas id="cv"></canvas>
+
+  <div id="hud" class="hidden">
+    <div id="stats">
+      <div class="bar" data-k="hp"><i><img src="assets/img/icons/ui_hp.svg" alt=""></i><b><span></span></b></div>
+      <div class="bar" data-k="hunger"><i><img src="assets/img/icons/ui_hunger.svg" alt=""></i><b><span></span></b></div>
+      <div class="bar" data-k="thirst"><i><img src="assets/img/icons/ui_thirst.svg" alt=""></i><b><span></span></b></div>
+      <div class="bar" data-k="sta"><i><img src="assets/img/icons/ui_sta.svg" alt=""></i><b><span></span></b></div>
+      <div class="bar hidden" data-k="heat"><i><img src="assets/img/icons/ui_heat.svg" alt=""></i><b><span></span></b></div>
+    </div>
+    <div id="topc"><div id="islname"></div><div id="clock"></div><div id="rule"></div></div>
+    <div id="topr">
+      <button id="bJournal" title="Nhật ký (J)"><img src="assets/img/icons/ui_journal.svg" alt=""></button>
+      <button id="bMap" title="Bản đồ (M)"><img src="assets/img/icons/ui_map.svg" alt=""></button>
+      <button id="bInv" title="Túi đồ (I)"><img src="assets/img/icons/ui_bag.svg" alt=""></button>
+      <button id="bMenu" title="Tạm dừng"><img src="assets/img/icons/ui_gear.svg" alt=""></button>
+    </div>
+    <div id="quest"></div>
+    <div id="joy"><div id="joyBase"><div id="joyKnob"></div></div><div id="joyHint">Chạm & kéo để đi</div></div>
+    <div id="acts">
+      <button id="bAct2" class="hidden"></button>
+      <button id="bAct">Tương tác</button>
+      <div class="col">
+        <button id="bRun" title="Chạy (Shift)"><img src="assets/img/icons/ui_run.svg" alt=""></button>
+        <button id="bCraft" title="Chế tạo (C)"><img src="assets/img/icons/ui_craft.svg" alt=""></button>
+      </div>
+    </div>
+    <div id="seaHud" class="hidden">
+      <div class="sbar" id="seaProg"><i><img src="assets/img/icons/ui_sail.svg" alt=""></i><b><span></span></b></div>
+      <div class="sbar" id="seaHp"><i><img src="assets/img/icons/ui_shield.svg" alt=""></i><b><span></span></b></div>
+      <div id="seaInfo"></div>
+      <div id="seaMsg" class="hidden"></div>
+    </div>
+  </div>
+
+  <div id="screenfx"></div>
+  <div id="busy"><span></span></div>
+  <div id="bubble"></div>
+  <div id="floats"></div>
+  <div id="toasts"></div>
+
+  <div id="panel" class="hidden"><div class="pcard"><header><h2></h2><button class="x">✕</button></header><div class="pbody"></div></div></div>
+  <div id="dialog" class="hidden"><div class="dcard"><div class="who"></div><div class="txt"></div><div class="next">▶</div></div></div>
+  <div id="card" class="hidden"></div>
+
+  <div id="title" class="hidden">
+    <div class="tinner">
+      <div class="tsub">Một hành trình sinh tồn qua 5 hòn đảo</div>
+      <h1>Người Đi Trước</h1>
+      <div class="tsub2">"Nếu ai đọc được, tôi là Lâm, ngư dân ở Lạch Vang."</div>
+      <div class="tbtns"></div>
+      <div class="tform hidden"></div>
+      <div class="tfoot">Joystick ảo + 2 nút hành động · Bàn phím: WASD, E, Q, Shift, C, I, J, M</div>
+    </div>
+  </div>
+
+  <div id="fade"></div>
+  <div id="loading"><h1>Người Đi Trước</h1><div id="loadbar"><span></span></div><p>Đang tải tài nguyên…</p></div>
+  <div id="rotate"><div>↻</div><p>Hãy xoay ngang điện thoại để chơi</p></div>
+</div>
+<script src="js/core.js?v=3"></script>
+<script src="js/data.js?v=3"></script>
+<script src="js/loader.js?v=3"></script>
+<script src="js/render.js?v=3"></script>
+<script src="js/audio.js?v=3"></script>
+<script src="js/ents.js?v=3"></script>
+<script src="js/rules.js?v=3"></script>
+<script src="js/story.js?v=3"></script>
+<script src="js/sea.js?v=3"></script>
+<script src="js/game.js?v=3"></script>
+<script src="js/ui.js?v=3"></script>
+<script src="js/main.js?v=3"></script>
+</body>
+</html>
